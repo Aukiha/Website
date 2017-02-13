@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #39958F;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+@keyframes appear {
+  0%   { opacity: 0; margin: 150}
+  100% { opacity: 1; margin: 100}
+}
+@keyframes appear2 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+h1 {
+  color: #75C4AF;
+  font-size: 60px;
+}
+
+h2 {
+  color: #75C4AF;
+  font-size: 40px;
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+}
+
+h3 {
+  color: #75C4AF;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:link {
+  color: #FFF;
+}
+a:visited {
+  color: #FFF;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+  width: 8em;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.links{
+  color: #FFF;
+  animation: appear 0.6s 0.6s ease-in-out;
+  animation-fill-mode: both;
+  text-align: center;
+}
+
+.link > i:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  color: #5FB4A4;
+}
+
+h2:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  color: #5FB4A4;
+}
+
+dt {
+  text-align: center;
+}
+
+dt > a {
+  font-size: 2em;
+}
+
+dt > a:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-property: color;
+  color: #5FB4A4;
+}
+
+
+dd {
+  color: #FFF;
+  text-align: center;
+}

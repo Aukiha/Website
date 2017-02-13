@@ -11,7 +11,7 @@
     <title>Aukiha</title>
 
     <!-- Core CSS -->
-    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/stylesheet<?php echo rand(1,4); ?>.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="icon.png">
     <!-- Font Awesome CSS -->
@@ -48,7 +48,6 @@ $(function () {                      // on document ready
 </script>
 
 <!-- Website Content -->
-
 <div class="top">
   <h1>Aukiha</h1>
 </div>
@@ -76,5 +75,14 @@ $(function () {                      // on document ready
   </a>
 </div>
 
-<h2 id="action" href="#">About Me</h2>
-<div id="showOrHideDiv" style="display: none;"><h3></h3>I'm actually a bot.</div>
+<div class="ProjectsList">
+  <h2 id="action" href="#">Projects I've worked on</h2>
+  <div id="showOrHideDiv" style="display: none;">
+    <dl>
+      <dt><a href="http://www.hbpac.club/" target="_blank">HB Performing Arts Commitee Website</a></dt>
+      <dd>Website for Harold M. Brathwaite Secondary School's Peforming Arts Commitee</dd>
+      <dt><a href="https://www.soundcloud.com/aukiha" target="_blank">Experimental Music</a></dt>
+      <dd>Music I've made</dd>
+    </dl>
+  </div>
+</div>
