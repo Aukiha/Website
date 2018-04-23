@@ -81,6 +81,8 @@ $(function () {                      // on document ready
     <dl>
       <dt><a href="http://www.hbpac.club/" target="_blank">HB Performing Arts Commitee Website</a></dt>
       <dd>Website for Harold M. Brathwaite Secondary School's Peforming Arts Commitee</dd>
+      <dt><a href="https://benchmarkedstudios.com/" target="_blank">benchMarked Studios</a></dt>
+      <dd>Enterprise-level services for small business and individuals</dd>
       <dt><a href="https://www.soundcloud.com/aukiha" target="_blank">Experimental Music</a></dt>
       <dd>Music I've made</dd>
     </dl>
